@@ -1,0 +1,93 @@
+.asosiy_page{
+    width: 100%;
+    height: 70vh;
+    background-image:url("./aosiy_page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.asosiy_page_opacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 119, 255, 0.25);
+}
+
+.asosiy_title{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.asosiy_title h1{
+    font-family: sans-serif;
+    background: -webkit-linear-gradient(-45deg,red, yellow , blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services{
+    width: 100%;
+    background-color: rgb(38, 56, 82);
+}
+
+.service_card{
+    width: 20%;
+    box-sizing: border-box;
+    font-size: 40px;
+    position: relative;
+}
+.service_card{
+    text-align: center;
+    line-height: 55px;
+    height: 300px;
+    padding: 35px 0;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+.service_card .icon{
+    font-size: 60px;
+    color: white;
+}
+.service_text{
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    padding: 20px;
+    transition: 0.5s;
+    position: absolute;
+    top: -550px;
+    /* transform: translate(0 ,-550px); */
+}
+.service_text h1{
+    font-size: 24px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.service_text p{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.service_card:hover .service_text{
+    top: 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.carusel{
+    box-sizing:border-box;
+    padding: 25px 0;
+}
+.carusel_title{
+    text-align: center;
+    padding: 15px;
+}
